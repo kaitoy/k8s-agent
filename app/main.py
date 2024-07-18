@@ -14,7 +14,7 @@ tools = [
     )
 ]
 
-template = '''Answer the following questions as best you can. You have access to the following tools:
+template = '''You are an expert of Kubernetes. Answer the following questions using kubectl as best you can. You have access to the following tools:
 
 {tools}
 
